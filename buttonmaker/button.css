@@ -1,0 +1,35 @@
+.button-maker-bg-container{
+    background-image: linear-gradient(to right, #09203f, #537895) ;
+}
+.button-maker-heading{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 500;
+}
+.button-maker-container{
+    border-radius: 14px;
+}
+.input-label{
+    color: #818a94;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+.user-input{
+    width: 100px;
+    height: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #b6bcc2;
+    border-radius: 7px;
+    padding-left: 14px ;
+}
+.custom-button{
+    font-family: Roboto;
+}
+.btn{
+    margin-left: 70px;
+}
