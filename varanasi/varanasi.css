@@ -1,0 +1,32 @@
+.varanasi-container{
+    background: #f1f5f8;
+}
+
+.varanasi-heading{
+    color: #102a42;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.varanasi-description{
+    font-family: Roboto;
+}
+.tab-container{
+    background-color: white;
+    border-radius: 10px;
+}
+.button{
+    background-color: #dae2ec;
+    font-family: Roboto;
+    font-size: 20px;
+    width: 145px;
+    border-width: 0;
+    border-radius: 10px;
+}
+.selected-button{
+    background-color: #ffffff;
+}
+.tab-contnet{
+    color: #323f4b;
+    font-family: Roboto;
+    font-size: 17px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="varanasi.css"/>
+    
+</head>
+<body>
+    <div class="varanasi-container pb-5 pt-5">
+        <h1 class="varanasi-heading text-center">Varanasi</h1>
+        <p class="varanasi-description text-center">The city is very commonly reffered to as City of Temples, Holy City of India.
+            Religious Capital of India. and City of Learning.  </p>
+        <div class="image text-center w-100">
+            <img src="https://images.asiahighlights.com/allpicture/2019/10/604af59ea02d43fcbce518fa_cut_750x400_349.webp"/>
+        </div>
+        <div class="d-flex flex-row justify-contnet-between">
+        <button id="aboutButton" class="p-7 pt-3 pb-3 button selected-button" onclick="onClickAboutTab()">
+          About
+        </button>
+        <button id="timeToVisitButton" class="p-7 button" onclick="onClickTimeToVisitTab()">
+           Time To Visit
+        </button>
+        <button id="attractionsButton" class="p-7 button" onclick="onClickAttractionsTab()">
+          Attractions
+        </button>
+    </div>
+    <div class="tab-container">
+        <div id="aboutTab" class="p-3">
+            <p class="tab-contnet">
+                Varanasi is one of the oldest living cities in the world.
+                its Prominence in Hindu mythology is Virtually unrevealed.
+                Mark Twain, The English Author and liturature, who was enthralled
+                by the legendand santcity of Benaras, once wrote , "Benaras is 
+                older than history,older than tradition, older even than legend and looks
+                twice as old as all of them put together."  
+            </p>
+        </div>
+        <div id="timeToVisitTab" class="p-3">
+            <p class="tab-contnet">
+                The best time period for visiting Varanasi is from October to March,
+                when the weather is not so hot and it is dry. November to February is the peak season, 
+                when crowds and higher prices are expected.Rainy season is from late June to September. 
+                It is still possible to tour Varanasi in these months, but get ready for the
+                humidity and rain. Lower prices and less-crowded attractions are the rewards.
+            </p>
+        </div>
+        <div id="attractionsTab" class="p-3">
+            <p class="tab-content">
+                Varanasi is one of the seven sacred cities of Hinduism and is located in the state of Uttar Pradesh
+                along the western banks of the Ganges River. Regarded as the spiritual capital of India,
+                this city draws many religious pilgrims who come to bathe in the Ganges River's sacred waters and perform funeral rites.
+            </p>
+        </div>
+    </div>
+    </div>
+<script src="varanasi.js"></script>
+</body>
+</html>
